@@ -24,12 +24,6 @@ module Hubspot
         @client_secret = config["client_secret"] if config["client_secret"].present?
         @redirect_uri = config["redirect_uri"] if config["redirect_uri"].present?
 
-        unless access_token.present? ^ hapikey.present?
-          Hubspot::ConfigurationError.new("You must provide either an access_token or an hapikey")
-        end
-        if access_token.present?
-          Hubspot::Connection.headers("Authorization" => "Bearer #{access_token}")
-        end
         self
       end
 

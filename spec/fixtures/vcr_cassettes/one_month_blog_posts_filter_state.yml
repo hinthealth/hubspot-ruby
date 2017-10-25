@@ -20810,4 +20810,520 @@ http_interactions:
         "id": "blog_comments", "css": {}}}}], "limit": 20, "offset": 0}'
     http_version: 
   recorded_at: Tue, 09 Oct 2012 22:00:00 GMT
+- request:
+    method: get
+    uri: https://api.hubapi.com/content/api/v2/blog-posts?content_group_id=351076997&created__range=1412906400000&hapikey=demo&order_by=-created
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 25 Oct 2017 13:39:56 GMT
+      Content-Length:
+      - '65657'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"limit":20,"objects":[{"ab":false,"ab_variation":false,"absolute_url":"http://demo-hubapi.hs-sites.com/blog/2013/10/api-blog-post-1389892022","allowed_slug_conflict":false,"analytics_page_id":"461745102","analytics_page_type":"blog-post","archived":false,"are_comments_allowed":true,"attached_stylesheets":[],"author_at":1389892043000,"blog_author_id":284839243,"blueprint_type_id":0,"campaign":"43a0c102-4e62-4527-849a-21c9bc40c908","campaign_name":"Fall
+        2013 Season End Clearance","category":3,"category_id":3,"comment_count":0,"composition_id":0,"content_group":351076997,"content_group_id":351076997,"created":1389892017000,"created_time":1389892017000,"css":{},"css_text":"","ctas":null,"current_state":"DRAFT","currently_published":false,"deleted_at":0,"domain":"","enable_google_amp_output_override":false,"featured_image":"","featured_image_alt_text":"","featured_image_height":0,"featured_image_length":0,"featured_image_width":0,"flex_areas":{},"footer_html":"","freeze_date":1389892043000,"has_user_changes":true,"head_html":"","html_title":"Testing
+        the blog API first API blog post!","id":461745102,"is_captcha_required":true,"is_draft":true,"is_instant_email_enabled":true,"is_published":false,"is_social_publishing_enabled":false,"keywords":[],"label":"Testing
+        the blog API first API blog post!","list_template":"generated_layouts/4679039338.html","live_domain":"demo-hubapi.hs-sites.com","meta":{"footer_html":"","has_user_changes":true,"performable_url":null,"meta_keywords":null,"use_featured_image":true,"topic_ids":[],"rss_email_click_through_text":"Read
+        more &raquo;","author_user_id":null,"rss_email_by_text":"By","style_override_id":null,"preview_image_src":null,"rss_summary":"<p>Hey
+        guys!</p>","featured_image":"","head_html":"","campaign_name":"Fall 2013 Season
+        End Clearance","post_summary":"<p>Hey guys!</p>","meta_description":"A post
+        about posts","html_title":"Testing the blog API first API blog post!","post_body":"<p>Hey
+        guys! I''m using the <b>API</b>! Woohoo!</p>","publish_immediately":true,"cloned_from":null,"rss_email_comment_text":"Comment
+        &raquo;","rss_body":"<p>Hey guys! I''m using the <b>API</b>! Woohoo!</p>","css":{}},"meta_description":"A
+        post about posts","name":"Testing the blog API first API blog post!","page_redirected":false,"page_title":"Testing
+        the blog API first API blog post!","parent_blog":{"absolute_url":"http://demo-hubapi.hs-sites.com/blog","allow_comments":true,"amp_body_color":"#404040","amp_body_font":"''Helvetica
+        Neue'', Helvetica, Arial, sans-serif","amp_body_font_size":"18","amp_custom_css":"","amp_header_background_color":"#ffffff","amp_header_color":"#1e1e1e","amp_header_font":"''Helvetica
+        Neue'', Helvetica, Arial, sans-serif","amp_header_font_size":"36","amp_link_color":"#416bb3","amp_logo_alt":"","amp_logo_height":0,"amp_logo_src":"","amp_logo_width":0,"analytics_page_id":351076997,"attached_stylesheets":[],"captcha_after_days":7,"captcha_always":false,"category_id":3,"close_comments_older":0,"comment_date_format":"medium","comment_form_guid":"6ec02265-f341-4621-a71a-fa161ef94614","comment_max_thread_depth":3,"comment_moderation":false,"comment_notification_emails":[],"comment_should_create_contact":true,"comment_verification_text":"","created":1381896103000,"created_date_time":1381896103000,"default_group_style_id":"","default_notification_from_name":"Patrick
+        Fitzsimmons","default_notification_reply_to":"pfitzsimmons@hubspot.com","deleted_at":0,"description":"","domain":"","domain_when_published":"demo-hubapi.hs-sites.com","enable_google_amp_output":false,"enable_social_auto_publishing":false,"html_footer":"11111111111111","html_footer_is_shared":true,"html_head":"","html_head_is_shared":true,"html_keywords":[],"html_title":"API
+        Demonstration Blog","id":351076997,"instant_notification_email_id":"348108934","item_layout_id":4679039338,"item_template_is_shared":true,"item_template_path":"generated_layouts/4679039338.html","language":"en_US","listing_layout_id":4679039338,"listing_template_path":"generated_layouts/4679039338.html","live_domain":"demo-hubapi.hs-sites.com","month_filter_format":"MMMM
+        yyyy","monthly_notification_email_id":"348108919","name":"API Demonstration
+        Blog","portal_id":62515,"post_html_footer":"11111111111111","post_html_head":"","posts_per_listing_page":10,"posts_per_rss_feed":10,"public_title":"API
+        Demonstration Blog","publish_date_format":"medium","resolved_domain":"demo-hubapi.hs-sites.com","root_url":"http://demo-hubapi.hs-sites.com/blog","show_social_link_facebook":false,"show_social_link_google_plus":false,"show_social_link_linkedin":false,"show_social_link_twitter":false,"show_summary_in_emails":false,"show_summary_in_listing":false,"show_summary_in_rss":false,"site_id":0,"slug":"blog","social_account_twitter":"","subscription_contacts_property":"blog_api_demonstration_blog_subscription","subscription_form_guid":"6620143a-a4b1-4709-a537-c3e5b66c97c1","subscription_lists_by_type":{"daily":280,"instant":279,"monthly":278,"weekly":281},"updated":1489429205000,"updated_date_time":1489429205000,"url_base":"demo-hubapi.hs-sites.com/blog","url_segments":{},"use_featured_image_in_summary":true,"uses_default_template":false},"performable_guid":"","personas":[],"placement_guids":[],"portal_id":62515,"post_body":"<p>Hey
+        guys! I''m using the <b>API</b>! Woohoo!</p>","post_body_rss":"<p>Hey guys!
+        I''m using the <b>API</b>! Woohoo!</p>","post_email_content":"<p>Hey guys!
+        I''m using the <b>API</b>! Woohoo!</p>","post_featured_image_if_enabled":"","post_list_content":"<p>Hey
+        guys! I''m using the <b>API</b>! Woohoo!</p>","post_list_summary_featured_image":"","post_rss_content":"<p>Hey
+        guys! I''m using the <b>API</b>! Woohoo!</p>","post_rss_summary_featured_image":"","post_summary":"<p>Hey
+        guys!</p>","post_summary_rss":"<p>Hey guys!</p>","post_template":"generated_layouts/4679039338.html","preview_key":"fVDzUEki","processing_status":"published","publish_date":1389892043000,"publish_date_local_time":1389892043000,"publish_date_localized":{"date":1389892043000,"format":"medium","language":"en_US"},"publish_immediately":true,"published_url":"","resolved_domain":"demo-hubapi.hs-sites.com","rss_body":"<p>Hey
+        guys! I''m using the <b>API</b>! Woohoo!</p>","rss_summary":"<p>Hey guys!</p>","rss_summary_featured_image":"","site_id":0,"slug":"blog/2013/10/api-blog-post-1389892022","state":"DRAFT","subcategory":"normal_blog_post","synced_with_blog_root":true,"tag_ids":[],"tag_list":[],"tag_names":[],"template_path":"","template_path_for_render":"generated_layouts/4679039338.html","title":"Testing
+        the blog API first API blog post!","topic_ids":[],"topic_list":[],"topic_names":[],"topics":[],"translated_content":{},"tweet_immediately":false,"unpublished_at":0,"updated":1389892043000,"upsize_featured_image":false,"url":"http://demo-hubapi.hs-sites.com/blog/2013/10/api-blog-post-1389892022","use_featured_image":true,"views":0,"widget_containers":{},"widgetcontainers":{},"widgets":{}},{"ab":false,"ab_variation":false,"absolute_url":"http://demo-hubapi.hs-sites.com/blog/-temporary-slug-b3e5fb76-7e00-4938-a8a9-c6b7dfff73b5","allowed_slug_conflict":false,"analytics_page_id":"450007202","analytics_page_type":"blog-post","archived":false,"are_comments_allowed":true,"attached_stylesheets":[],"author_at":1389387668000,"blueprint_type_id":0,"category":3,"category_id":3,"comment_count":0,"composition_id":0,"content_group":351076997,"content_group_id":351076997,"created":1389387668000,"created_time":1389387668000,"css":{},"css_text":"","ctas":null,"current_state":"DRAFT","currently_published":false,"deleted_at":0,"domain":"","enable_google_amp_output_override":false,"featured_image":"","featured_image_alt_text":"","featured_image_height":0,"featured_image_length":0,"featured_image_width":0,"flex_areas":{},"freeze_date":1389387668000,"has_user_changes":true,"html_title":"Test
+        Blog Post","id":450007202,"is_captcha_required":true,"is_draft":true,"is_instant_email_enabled":true,"is_published":false,"is_social_publishing_enabled":false,"keywords":[],"label":"Test
+        Blog Post","list_template":"generated_layouts/4679039338.html","live_domain":"demo-hubapi.hs-sites.com","meta":{"has_user_changes":true,"html_title":"Test
+        Blog Post","rss_body":"","publish_immediately":null,"topic_ids":[],"rss_summary":"","post_summary":null},"name":"Test
+        Blog Post","page_redirected":false,"page_title":"Test Blog Post","parent_blog":{"absolute_url":"http://demo-hubapi.hs-sites.com/blog","allow_comments":true,"amp_body_color":"#404040","amp_body_font":"''Helvetica
+        Neue'', Helvetica, Arial, sans-serif","amp_body_font_size":"18","amp_custom_css":"","amp_header_background_color":"#ffffff","amp_header_color":"#1e1e1e","amp_header_font":"''Helvetica
+        Neue'', Helvetica, Arial, sans-serif","amp_header_font_size":"36","amp_link_color":"#416bb3","amp_logo_alt":"","amp_logo_height":0,"amp_logo_src":"","amp_logo_width":0,"analytics_page_id":351076997,"attached_stylesheets":[],"captcha_after_days":7,"captcha_always":false,"category_id":3,"close_comments_older":0,"comment_date_format":"medium","comment_form_guid":"6ec02265-f341-4621-a71a-fa161ef94614","comment_max_thread_depth":3,"comment_moderation":false,"comment_notification_emails":[],"comment_should_create_contact":true,"comment_verification_text":"","created":1381896103000,"created_date_time":1381896103000,"default_group_style_id":"","default_notification_from_name":"Patrick
+        Fitzsimmons","default_notification_reply_to":"pfitzsimmons@hubspot.com","deleted_at":0,"description":"","domain":"","domain_when_published":"demo-hubapi.hs-sites.com","enable_google_amp_output":false,"enable_social_auto_publishing":false,"html_footer":"11111111111111","html_footer_is_shared":true,"html_head":"","html_head_is_shared":true,"html_keywords":[],"html_title":"API
+        Demonstration Blog","id":351076997,"instant_notification_email_id":"348108934","item_layout_id":4679039338,"item_template_is_shared":true,"item_template_path":"generated_layouts/4679039338.html","language":"en_US","listing_layout_id":4679039338,"listing_template_path":"generated_layouts/4679039338.html","live_domain":"demo-hubapi.hs-sites.com","month_filter_format":"MMMM
+        yyyy","monthly_notification_email_id":"348108919","name":"API Demonstration
+        Blog","portal_id":62515,"post_html_footer":"11111111111111","post_html_head":"","posts_per_listing_page":10,"posts_per_rss_feed":10,"public_title":"API
+        Demonstration Blog","publish_date_format":"medium","resolved_domain":"demo-hubapi.hs-sites.com","root_url":"http://demo-hubapi.hs-sites.com/blog","show_social_link_facebook":false,"show_social_link_google_plus":false,"show_social_link_linkedin":false,"show_social_link_twitter":false,"show_summary_in_emails":false,"show_summary_in_listing":false,"show_summary_in_rss":false,"site_id":0,"slug":"blog","social_account_twitter":"","subscription_contacts_property":"blog_api_demonstration_blog_subscription","subscription_form_guid":"6620143a-a4b1-4709-a537-c3e5b66c97c1","subscription_lists_by_type":{"daily":280,"instant":279,"monthly":278,"weekly":281},"updated":1489429205000,"updated_date_time":1489429205000,"url_base":"demo-hubapi.hs-sites.com/blog","url_segments":{},"use_featured_image_in_summary":true,"uses_default_template":false},"performable_guid":"","personas":[],"placement_guids":[],"portal_id":62515,"post_body_rss":"","post_featured_image_if_enabled":"","post_list_summary_featured_image":"","post_rss_content":"","post_rss_summary_featured_image":"","post_summary_rss":"","post_template":"generated_layouts/4679039338.html","preview_key":"Puvfl8Po","processing_status":"","publish_date":1389387668000,"publish_date_local_time":1389387668000,"publish_date_localized":{"date":1389387668000,"format":"medium","language":"en_US"},"published_url":"","resolved_domain":"demo-hubapi.hs-sites.com","rss_body":"","rss_summary":"","rss_summary_featured_image":"","site_id":0,"slug":"blog/-temporary-slug-b3e5fb76-7e00-4938-a8a9-c6b7dfff73b5","state":"DRAFT","subcategory":"normal_blog_post","synced_with_blog_root":true,"tag_ids":[],"tag_list":[],"tag_names":[],"template_path":"","template_path_for_render":"generated_layouts/4679039338.html","title":"Test
+        Blog Post","topic_ids":[],"topic_list":[],"topic_names":[],"topics":[],"translated_content":{},"tweet_immediately":false,"unpublished_at":0,"updated":1389387668000,"upsize_featured_image":false,"url":"http://demo-hubapi.hs-sites.com/blog/-temporary-slug-b3e5fb76-7e00-4938-a8a9-c6b7dfff73b5","use_featured_image":true,"views":0,"widget_containers":{},"widgetcontainers":{},"widgets":{}},{"ab":false,"ab_variation":false,"absolute_url":"http://demo-hubapi.hs-sites.com/blog/your-first-blog-post-44","allowed_slug_conflict":false,"analytics_page_id":"444963329","analytics_page_type":"blog-post","archived":false,"are_comments_allowed":true,"attached_stylesheets":[],"author":"pfitzsimmons@hubspot.com","author_at":1389385574000,"author_email":"pfitzsimmons@hubspot.com","author_name":"Patrick
+        Fitzsimmons","author_user_id":100307,"author_username":"pfitzsimmons@hubspot.com","blog_author_id":284839243,"blog_publish_instant_email_retry_count":0,"blueprint_type_id":0,"category":3,"category_id":3,"cloned_from":348109414,"comment_count":0,"composition_id":0,"content_group":351076997,"content_group_id":351076997,"created":1389385574000,"created_time":1389385574000,"css":{},"css_text":"","ctas":null,"current_state":"DRAFT","currently_published":false,"deleted_at":0,"domain":"","enable_google_amp_output_override":false,"featured_image":"","featured_image_alt_text":"","featured_image_height":0,"featured_image_length":0,"featured_image_width":0,"flex_areas":{},"footer_html":"","freeze_date":1389385574000,"has_user_changes":true,"head_html":"","html_title":"Cloned
+        Blog Post","id":444963329,"is_captcha_required":true,"is_draft":true,"is_instant_email_enabled":true,"is_published":false,"is_social_publishing_enabled":false,"keywords":[],"label":"Cloned
+        Blog Post","legacy_post_guid":"","list_template":"generated_layouts/4679039338.html","live_domain":"demo-hubapi.hs-sites.com","meta":{"meta_keywords":null,"blog_publish_instant_email_task_uid":null,"use_featured_image":true,"topic_ids":[],"author_user_id":100307,"rss_email_by_text":"By","style_override_id":null,"preview_image_src":null,"featured_image":"","campaign_name":null,"post_summary":"\n<p>This
+        is an example blog post.  You can delete this blog post by going to the blog
+        dashboard.</p>\n","meta_description":"This is the meta description of your
+        first post.","html_title":"Cloned Blog Post","blog_post_schedule_task_uid":null,"author_email":"pfitzsimmons@hubspot.com","blog_publish_to_social_media_task":null,"rss_email_comment_text":"Comment
+        &raquo;","blog_publish_instant_email_campaign_id":null,"blog_publish_instant_email_retry_count":0,"css":{},"footer_html":"","has_user_changes":true,"performable_url":null,"author_username":"pfitzsimmons@hubspot.com","cloned_from":348109414,"rss_email_click_through_text":"Read
+        more &raquo;","rss_summary":"\n<p>This is an example blog post.  You can delete
+        this blog post by going to the blog dashboard.</p>\n","head_html":"","post_body":"\n<p>This
+        is an example blog post.  You can delete this blog post by going to the blog
+        dashboard.</p>\n<!--more--><p>We hope you enjoy your HubSpot!</p>\n","publish_immediately":null,"rss_body":"<p>This
+        is an example blog post.  You can delete this blog post by going to the blog
+        dashboard.</p>\n<!--more--><p>We hope you enjoy your HubSpot!</p>","legacy_post_guid":""},"meta_description":"This
+        is the meta description of your first post.","name":"Cloned Blog Post","page_redirected":false,"page_title":"Cloned
+        Blog Post","parent_blog":{"absolute_url":"http://demo-hubapi.hs-sites.com/blog","allow_comments":true,"amp_body_color":"#404040","amp_body_font":"''Helvetica
+        Neue'', Helvetica, Arial, sans-serif","amp_body_font_size":"18","amp_custom_css":"","amp_header_background_color":"#ffffff","amp_header_color":"#1e1e1e","amp_header_font":"''Helvetica
+        Neue'', Helvetica, Arial, sans-serif","amp_header_font_size":"36","amp_link_color":"#416bb3","amp_logo_alt":"","amp_logo_height":0,"amp_logo_src":"","amp_logo_width":0,"analytics_page_id":351076997,"attached_stylesheets":[],"captcha_after_days":7,"captcha_always":false,"category_id":3,"close_comments_older":0,"comment_date_format":"medium","comment_form_guid":"6ec02265-f341-4621-a71a-fa161ef94614","comment_max_thread_depth":3,"comment_moderation":false,"comment_notification_emails":[],"comment_should_create_contact":true,"comment_verification_text":"","created":1381896103000,"created_date_time":1381896103000,"default_group_style_id":"","default_notification_from_name":"Patrick
+        Fitzsimmons","default_notification_reply_to":"pfitzsimmons@hubspot.com","deleted_at":0,"description":"","domain":"","domain_when_published":"demo-hubapi.hs-sites.com","enable_google_amp_output":false,"enable_social_auto_publishing":false,"html_footer":"11111111111111","html_footer_is_shared":true,"html_head":"","html_head_is_shared":true,"html_keywords":[],"html_title":"API
+        Demonstration Blog","id":351076997,"instant_notification_email_id":"348108934","item_layout_id":4679039338,"item_template_is_shared":true,"item_template_path":"generated_layouts/4679039338.html","language":"en_US","listing_layout_id":4679039338,"listing_template_path":"generated_layouts/4679039338.html","live_domain":"demo-hubapi.hs-sites.com","month_filter_format":"MMMM
+        yyyy","monthly_notification_email_id":"348108919","name":"API Demonstration
+        Blog","portal_id":62515,"post_html_footer":"11111111111111","post_html_head":"","posts_per_listing_page":10,"posts_per_rss_feed":10,"public_title":"API
+        Demonstration Blog","publish_date_format":"medium","resolved_domain":"demo-hubapi.hs-sites.com","root_url":"http://demo-hubapi.hs-sites.com/blog","show_social_link_facebook":false,"show_social_link_google_plus":false,"show_social_link_linkedin":false,"show_social_link_twitter":false,"show_summary_in_emails":false,"show_summary_in_listing":false,"show_summary_in_rss":false,"site_id":0,"slug":"blog","social_account_twitter":"","subscription_contacts_property":"blog_api_demonstration_blog_subscription","subscription_form_guid":"6620143a-a4b1-4709-a537-c3e5b66c97c1","subscription_lists_by_type":{"daily":280,"instant":279,"monthly":278,"weekly":281},"updated":1489429205000,"updated_date_time":1489429205000,"url_base":"demo-hubapi.hs-sites.com/blog","url_segments":{},"use_featured_image_in_summary":true,"uses_default_template":false},"performable_guid":"","personas":[],"placement_guids":[],"portal_id":62515,"post_body":"\n<p>This
+        is an example blog post.  You can delete this blog post by going to the blog
+        dashboard.</p>\n<!--more--><p>We hope you enjoy your HubSpot!</p>\n","post_body_rss":"<p>This
+        is an example blog post.  You can delete this blog post by going to the blog
+        dashboard.</p>\n<!--more--><p>We hope you enjoy your HubSpot!</p>","post_email_content":"\n<p>This
+        is an example blog post.  You can delete this blog post by going to the blog
+        dashboard.</p>\n<!--more--><p>We hope you enjoy your HubSpot!</p>\n","post_featured_image_if_enabled":"","post_list_content":"\n<p>This
+        is an example blog post.  You can delete this blog post by going to the blog
+        dashboard.</p>\n<!--more--><p>We hope you enjoy your HubSpot!</p>\n","post_list_summary_featured_image":"","post_rss_content":"<p>This
+        is an example blog post.  You can delete this blog post by going to the blog
+        dashboard.</p>\n<!--more--><p>We hope you enjoy your HubSpot!</p>","post_rss_summary_featured_image":"","post_summary":"\n<p>This
+        is an example blog post.  You can delete this blog post by going to the blog
+        dashboard.</p>\n","post_summary_rss":"\n<p>This is an example blog post.  You
+        can delete this blog post by going to the blog dashboard.</p>\n","post_template":"generated_layouts/4679039338.html","preview_key":"M3R5xXPi","processing_status":"undefined","publish_date":1389385574000,"publish_date_local_time":1389385574000,"publish_date_localized":{"date":1389385574000,"format":"medium","language":"en_US"},"published_url":"","resolved_domain":"demo-hubapi.hs-sites.com","rss_body":"<p>This
+        is an example blog post.  You can delete this blog post by going to the blog
+        dashboard.</p>\n<!--more--><p>We hope you enjoy your HubSpot!</p>","rss_summary":"\n<p>This
+        is an example blog post.  You can delete this blog post by going to the blog
+        dashboard.</p>\n","rss_summary_featured_image":"","site_id":0,"slug":"blog/your-first-blog-post-44","state":"DRAFT","subcategory":"normal_blog_post","synced_with_blog_root":true,"tag_ids":[],"tag_list":[],"tag_names":[],"template_path":"","template_path_for_render":"generated_layouts/4679039338.html","title":"Cloned
+        Blog Post","topic_ids":[],"topic_list":[],"topic_names":[],"topics":[],"translated_content":{},"tweet_immediately":false,"unpublished_at":0,"updated":1389385574000,"upsize_featured_image":false,"url":"http://demo-hubapi.hs-sites.com/blog/your-first-blog-post-44","use_featured_image":true,"views":0,"widget_containers":{},"widgetcontainers":{},"widgets":{}},{"ab":false,"ab_variation":false,"absolute_url":"http://demo-hubapi.hs-sites.com/blog/-temporary-slug-5b948be2-3a0b-4727-a713-f4cd67303bbd","allowed_slug_conflict":false,"analytics_page_id":"444953404","analytics_page_type":"blog-post","archived":false,"are_comments_allowed":true,"attached_stylesheets":[],"author_at":1389385479000,"blueprint_type_id":0,"category":3,"category_id":3,"comment_count":0,"composition_id":0,"content_group":351076997,"content_group_id":351076997,"created":1389385479000,"created_time":1389385479000,"css":{},"css_text":"","ctas":null,"current_state":"DRAFT","currently_published":false,"deleted_at":0,"domain":"","enable_google_amp_output_override":false,"featured_image":"","featured_image_alt_text":"","featured_image_height":0,"featured_image_length":0,"featured_image_width":0,"flex_areas":{},"freeze_date":1389385479000,"has_user_changes":true,"html_title":"Test
+        Blog Post","id":444953404,"is_captcha_required":true,"is_draft":true,"is_instant_email_enabled":true,"is_published":false,"is_social_publishing_enabled":false,"keywords":[],"label":"Test
+        Blog Post","list_template":"generated_layouts/4679039338.html","live_domain":"demo-hubapi.hs-sites.com","meta":{"has_user_changes":true,"html_title":"Test
+        Blog Post","rss_body":"","publish_immediately":null,"topic_ids":[],"rss_summary":"","post_summary":null},"name":"Test
+        Blog Post","page_redirected":false,"page_title":"Test Blog Post","parent_blog":{"absolute_url":"http://demo-hubapi.hs-sites.com/blog","allow_comments":true,"amp_body_color":"#404040","amp_body_font":"''Helvetica
+        Neue'', Helvetica, Arial, sans-serif","amp_body_font_size":"18","amp_custom_css":"","amp_header_background_color":"#ffffff","amp_header_color":"#1e1e1e","amp_header_font":"''Helvetica
+        Neue'', Helvetica, Arial, sans-serif","amp_header_font_size":"36","amp_link_color":"#416bb3","amp_logo_alt":"","amp_logo_height":0,"amp_logo_src":"","amp_logo_width":0,"analytics_page_id":351076997,"attached_stylesheets":[],"captcha_after_days":7,"captcha_always":false,"category_id":3,"close_comments_older":0,"comment_date_format":"medium","comment_form_guid":"6ec02265-f341-4621-a71a-fa161ef94614","comment_max_thread_depth":3,"comment_moderation":false,"comment_notification_emails":[],"comment_should_create_contact":true,"comment_verification_text":"","created":1381896103000,"created_date_time":1381896103000,"default_group_style_id":"","default_notification_from_name":"Patrick
+        Fitzsimmons","default_notification_reply_to":"pfitzsimmons@hubspot.com","deleted_at":0,"description":"","domain":"","domain_when_published":"demo-hubapi.hs-sites.com","enable_google_amp_output":false,"enable_social_auto_publishing":false,"html_footer":"11111111111111","html_footer_is_shared":true,"html_head":"","html_head_is_shared":true,"html_keywords":[],"html_title":"API
+        Demonstration Blog","id":351076997,"instant_notification_email_id":"348108934","item_layout_id":4679039338,"item_template_is_shared":true,"item_template_path":"generated_layouts/4679039338.html","language":"en_US","listing_layout_id":4679039338,"listing_template_path":"generated_layouts/4679039338.html","live_domain":"demo-hubapi.hs-sites.com","month_filter_format":"MMMM
+        yyyy","monthly_notification_email_id":"348108919","name":"API Demonstration
+        Blog","portal_id":62515,"post_html_footer":"11111111111111","post_html_head":"","posts_per_listing_page":10,"posts_per_rss_feed":10,"public_title":"API
+        Demonstration Blog","publish_date_format":"medium","resolved_domain":"demo-hubapi.hs-sites.com","root_url":"http://demo-hubapi.hs-sites.com/blog","show_social_link_facebook":false,"show_social_link_google_plus":false,"show_social_link_linkedin":false,"show_social_link_twitter":false,"show_summary_in_emails":false,"show_summary_in_listing":false,"show_summary_in_rss":false,"site_id":0,"slug":"blog","social_account_twitter":"","subscription_contacts_property":"blog_api_demonstration_blog_subscription","subscription_form_guid":"6620143a-a4b1-4709-a537-c3e5b66c97c1","subscription_lists_by_type":{"daily":280,"instant":279,"monthly":278,"weekly":281},"updated":1489429205000,"updated_date_time":1489429205000,"url_base":"demo-hubapi.hs-sites.com/blog","url_segments":{},"use_featured_image_in_summary":true,"uses_default_template":false},"performable_guid":"","personas":[],"placement_guids":[],"portal_id":62515,"post_body_rss":"","post_featured_image_if_enabled":"","post_list_summary_featured_image":"","post_rss_content":"","post_rss_summary_featured_image":"","post_summary_rss":"","post_template":"generated_layouts/4679039338.html","preview_key":"2K1sokVE","processing_status":"","publish_date":1389385479000,"publish_date_local_time":1389385479000,"publish_date_localized":{"date":1389385479000,"format":"medium","language":"en_US"},"published_url":"","resolved_domain":"demo-hubapi.hs-sites.com","rss_body":"","rss_summary":"","rss_summary_featured_image":"","site_id":0,"slug":"blog/-temporary-slug-5b948be2-3a0b-4727-a713-f4cd67303bbd","state":"DRAFT","subcategory":"normal_blog_post","synced_with_blog_root":true,"tag_ids":[],"tag_list":[],"tag_names":[],"template_path":"","template_path_for_render":"generated_layouts/4679039338.html","title":"Test
+        Blog Post","topic_ids":[],"topic_list":[],"topic_names":[],"topics":[],"translated_content":{},"tweet_immediately":false,"unpublished_at":0,"updated":1389385479000,"upsize_featured_image":false,"url":"http://demo-hubapi.hs-sites.com/blog/-temporary-slug-5b948be2-3a0b-4727-a713-f4cd67303bbd","use_featured_image":true,"views":0,"widget_containers":{},"widgetcontainers":{},"widgets":{}},{"ab":false,"ab_variation":false,"absolute_url":"http://demo-hubapi.hs-sites.com/blog/your-first-blog-post-43","allowed_slug_conflict":false,"analytics_page_id":"444962919","analytics_page_type":"blog-post","archived":false,"are_comments_allowed":true,"attached_stylesheets":[],"author":"pfitzsimmons@hubspot.com","author_at":1389385478000,"author_email":"pfitzsimmons@hubspot.com","author_name":"Patrick
+        Fitzsimmons","author_user_id":100307,"author_username":"pfitzsimmons@hubspot.com","blog_author_id":284839243,"blog_publish_instant_email_retry_count":0,"blueprint_type_id":0,"category":3,"category_id":3,"cloned_from":348109414,"comment_count":0,"composition_id":0,"content_group":351076997,"content_group_id":351076997,"created":1389385478000,"created_time":1389385478000,"css":{},"css_text":"","ctas":null,"current_state":"DRAFT","currently_published":false,"deleted_at":0,"domain":"","enable_google_amp_output_override":false,"featured_image":"","featured_image_alt_text":"","featured_image_height":0,"featured_image_length":0,"featured_image_width":0,"flex_areas":{},"footer_html":"","freeze_date":1389385478000,"has_user_changes":true,"head_html":"","html_title":"Cloned
+        Blog Post","id":444962919,"is_captcha_required":true,"is_draft":true,"is_instant_email_enabled":true,"is_published":false,"is_social_publishing_enabled":false,"keywords":[],"label":"Cloned
+        Blog Post","legacy_post_guid":"","list_template":"generated_layouts/4679039338.html","live_domain":"demo-hubapi.hs-sites.com","meta":{"meta_keywords":null,"blog_publish_instant_email_task_uid":null,"use_featured_image":true,"topic_ids":[],"author_user_id":100307,"rss_email_by_text":"By","style_override_id":null,"preview_image_src":null,"featured_image":"","campaign_name":null,"post_summary":"\n<p>This
+        is an example blog post.  You can delete this blog post by going to the blog
+        dashboard.</p>\n","has_user_changes":true,"html_title":"Cloned Blog Post","blog_post_schedule_task_uid":null,"author_email":"pfitzsimmons@hubspot.com","blog_publish_to_social_media_task":null,"rss_email_comment_text":"Comment
+        &raquo;","blog_publish_instant_email_campaign_id":null,"blog_publish_instant_email_retry_count":0,"css":{},"footer_html":"","meta_description":"This
+        is the meta description of your first post.","performable_url":null,"author_username":"pfitzsimmons@hubspot.com","cloned_from":348109414,"rss_email_click_through_text":"Read
+        more &raquo;","rss_summary":"\n<p>This is an example blog post.  You can delete
+        this blog post by going to the blog dashboard.</p>\n","head_html":"","post_body":"\n<p>This
+        is an example blog post.  You can delete this blog post by going to the blog
+        dashboard.</p>\n<!--more--><p>We hope you enjoy your HubSpot!</p>\n","publish_immediately":null,"rss_body":"<p>This
+        is an example blog post.  You can delete this blog post by going to the blog
+        dashboard.</p>\n<!--more--><p>We hope you enjoy your HubSpot!</p>","legacy_post_guid":""},"meta_description":"This
+        is the meta description of your first post.","name":"Cloned Blog Post","page_redirected":false,"page_title":"Cloned
+        Blog Post","parent_blog":{"absolute_url":"http://demo-hubapi.hs-sites.com/blog","allow_comments":true,"amp_body_color":"#404040","amp_body_font":"''Helvetica
+        Neue'', Helvetica, Arial, sans-serif","amp_body_font_size":"18","amp_custom_css":"","amp_header_background_color":"#ffffff","amp_header_color":"#1e1e1e","amp_header_font":"''Helvetica
+        Neue'', Helvetica, Arial, sans-serif","amp_header_font_size":"36","amp_link_color":"#416bb3","amp_logo_alt":"","amp_logo_height":0,"amp_logo_src":"","amp_logo_width":0,"analytics_page_id":351076997,"attached_stylesheets":[],"captcha_after_days":7,"captcha_always":false,"category_id":3,"close_comments_older":0,"comment_date_format":"medium","comment_form_guid":"6ec02265-f341-4621-a71a-fa161ef94614","comment_max_thread_depth":3,"comment_moderation":false,"comment_notification_emails":[],"comment_should_create_contact":true,"comment_verification_text":"","created":1381896103000,"created_date_time":1381896103000,"default_group_style_id":"","default_notification_from_name":"Patrick
+        Fitzsimmons","default_notification_reply_to":"pfitzsimmons@hubspot.com","deleted_at":0,"description":"","domain":"","domain_when_published":"demo-hubapi.hs-sites.com","enable_google_amp_output":false,"enable_social_auto_publishing":false,"html_footer":"11111111111111","html_footer_is_shared":true,"html_head":"","html_head_is_shared":true,"html_keywords":[],"html_title":"API
+        Demonstration Blog","id":351076997,"instant_notification_email_id":"348108934","item_layout_id":4679039338,"item_template_is_shared":true,"item_template_path":"generated_layouts/4679039338.html","language":"en_US","listing_layout_id":4679039338,"listing_template_path":"generated_layouts/4679039338.html","live_domain":"demo-hubapi.hs-sites.com","month_filter_format":"MMMM
+        yyyy","monthly_notification_email_id":"348108919","name":"API Demonstration
+        Blog","portal_id":62515,"post_html_footer":"11111111111111","post_html_head":"","posts_per_listing_page":10,"posts_per_rss_feed":10,"public_title":"API
+        Demonstration Blog","publish_date_format":"medium","resolved_domain":"demo-hubapi.hs-sites.com","root_url":"http://demo-hubapi.hs-sites.com/blog","show_social_link_facebook":false,"show_social_link_google_plus":false,"show_social_link_linkedin":false,"show_social_link_twitter":false,"show_summary_in_emails":false,"show_summary_in_listing":false,"show_summary_in_rss":false,"site_id":0,"slug":"blog","social_account_twitter":"","subscription_contacts_property":"blog_api_demonstration_blog_subscription","subscription_form_guid":"6620143a-a4b1-4709-a537-c3e5b66c97c1","subscription_lists_by_type":{"daily":280,"instant":279,"monthly":278,"weekly":281},"updated":1489429205000,"updated_date_time":1489429205000,"url_base":"demo-hubapi.hs-sites.com/blog","url_segments":{},"use_featured_image_in_summary":true,"uses_default_template":false},"performable_guid":"","personas":[],"placement_guids":[],"portal_id":62515,"post_body":"\n<p>This
+        is an example blog post.  You can delete this blog post by going to the blog
+        dashboard.</p>\n<!--more--><p>We hope you enjoy your HubSpot!</p>\n","post_body_rss":"<p>This
+        is an example blog post.  You can delete this blog post by going to the blog
+        dashboard.</p>\n<!--more--><p>We hope you enjoy your HubSpot!</p>","post_email_content":"\n<p>This
+        is an example blog post.  You can delete this blog post by going to the blog
+        dashboard.</p>\n<!--more--><p>We hope you enjoy your HubSpot!</p>\n","post_featured_image_if_enabled":"","post_list_content":"\n<p>This
+        is an example blog post.  You can delete this blog post by going to the blog
+        dashboard.</p>\n<!--more--><p>We hope you enjoy your HubSpot!</p>\n","post_list_summary_featured_image":"","post_rss_content":"<p>This
+        is an example blog post.  You can delete this blog post by going to the blog
+        dashboard.</p>\n<!--more--><p>We hope you enjoy your HubSpot!</p>","post_rss_summary_featured_image":"","post_summary":"\n<p>This
+        is an example blog post.  You can delete this blog post by going to the blog
+        dashboard.</p>\n","post_summary_rss":"\n<p>This is an example blog post.  You
+        can delete this blog post by going to the blog dashboard.</p>\n","post_template":"generated_layouts/4679039338.html","preview_key":"-yvF07ep","processing_status":"undefined","publish_date":1389385478000,"publish_date_local_time":1389385478000,"publish_date_localized":{"date":1389385478000,"format":"medium","language":"en_US"},"published_url":"","resolved_domain":"demo-hubapi.hs-sites.com","rss_body":"<p>This
+        is an example blog post.  You can delete this blog post by going to the blog
+        dashboard.</p>\n<!--more--><p>We hope you enjoy your HubSpot!</p>","rss_summary":"\n<p>This
+        is an example blog post.  You can delete this blog post by going to the blog
+        dashboard.</p>\n","rss_summary_featured_image":"","site_id":0,"slug":"blog/your-first-blog-post-43","state":"DRAFT","subcategory":"normal_blog_post","synced_with_blog_root":true,"tag_ids":[],"tag_list":[],"tag_names":[],"template_path":"","template_path_for_render":"generated_layouts/4679039338.html","title":"Cloned
+        Blog Post","topic_ids":[],"topic_list":[],"topic_names":[],"topics":[],"translated_content":{},"tweet_immediately":false,"unpublished_at":0,"updated":1389385478000,"upsize_featured_image":false,"url":"http://demo-hubapi.hs-sites.com/blog/your-first-blog-post-43","use_featured_image":true,"views":0,"widget_containers":{},"widgetcontainers":{},"widgets":{}},{"ab":false,"ab_variation":false,"absolute_url":"http://demo-hubapi.hs-sites.com/blog/suggestion-records","allowed_slug_conflict":false,"analytics_page_id":"385448441","analytics_page_type":"blog-post","archived":false,"are_comments_allowed":true,"attached_stylesheets":[],"author_at":1384934339000,"blog_author_id":284839243,"blueprint_type_id":0,"category":3,"category_id":3,"comment_count":0,"composition_id":0,"content_group":351076997,"content_group_id":351076997,"created":1384934339000,"created_time":1384934339000,"css":{},"css_text":"","ctas":null,"current_state":"DRAFT","currently_published":false,"deleted_at":0,"domain":"","enable_google_amp_output_override":false,"featured_image":"","featured_image_alt_text":"","featured_image_height":0,"featured_image_length":0,"featured_image_width":0,"flex_areas":{},"freeze_date":1384934339000,"has_user_changes":true,"html_title":"Suggestion
+        Records","id":385448441,"is_captcha_required":true,"is_draft":true,"is_instant_email_enabled":true,"is_published":false,"is_social_publishing_enabled":false,"keywords":[],"label":"Suggestion
+        Records","list_template":"generated_layouts/4679039338.html","live_domain":"demo-hubapi.hs-sites.com","meta":{"footer_html":null,"meta_description":null,"html_title":"Suggestion
+        Records","meta_keywords":"Suggestion ","post_body":"Your content will be scanned
+        using Copyscape to ensure no part has been copied<br style=\"color: rgb(42,
+        77, 123); font-family: Verdana, Arial, sans-serif, ''Trebuchet MS''; font-size:
+        11px;\">?&nbsp;Both our editors and the client will review Copyscape repo&nbsp;Do
+        not submit content that has been copied in any way<br style=\"color: rgb(42,
+        77, 123); font-family: Verdana, Arial, sans-serif, ''Trebuchet MS''; font-size:
+        11px;\">?&nbsp;Your content will be scanned using Copyscape to ensure no part
+        h&nbsp;Do not submit content that has been copied in any way<br style=\"color:
+        rgb(42, 77, 123); font-family: Verdana, Arial, sans-serif, ''Trebuchet MS'';
+        font-size: 11px;\">?&nbsp;Your content will be scanned using Copyscape to
+        ensure no part has been copied<br style=\"color: rgb(42, 77, 123); font-family:
+        Verdana, Arial, sans-serif, ''Trebuchet MS''; font-size: 11px;\">?&nbsp;Both
+        our editors and the client will review Copyscape &nbsp;port. If pl ","publish_immediately":false,"topic_ids":[],"rss_summary":"<p>Your
+        content will be scanned using Copyscape to ensure no part has been copied<br
+        style=\"color: rgb(42, 77, 123); font-family: Verdana, Arial, sans-serif,
+        ''Trebuchet MS''; font-size: 11px;\"/>?&nbsp;Both our editors and the client
+        will review Copyscape repo&nbsp;Do not submit content that has been copied
+        in any way<br style=\"color: rgb(42, 77, 123); font-family: Verdana, Arial,
+        sans-serif, ''Trebuchet MS''; font-size: 11px;\"/>?&nbsp;Your content will
+        be scanned using Copyscape to ensure no part h&nbsp;Do not submit content
+        that has been copied in any way<br style=\"color: rgb(42, 77, 123); font-family:
+        Verdana, Arial, sans-serif, ''Trebuchet MS''; font-size: 11px;\"/>?&nbsp;Your
+        content will be scanned using Copyscape to ensure no part has been copied<br
+        style=\"color: rgb(42, 77, 123); font-family: Verdana, Arial, sans-serif,
+        ''Trebuchet MS''; font-size: 11px;\"/>?&nbsp;Both our editors and the client
+        will review Copyscape &nbsp;port. If pl </p>","rss_body":"<p>Your content
+        will be scanned using Copyscape to ensure no part has been copied<br style=\"color:
+        rgb(42, 77, 123); font-family: Verdana, Arial, sans-serif, ''Trebuchet MS'';
+        font-size: 11px;\"/>?&nbsp;Both our editors and the client will review Copyscape
+        repo&nbsp;Do not submit content that has been copied in any way<br style=\"color:
+        rgb(42, 77, 123); font-family: Verdana, Arial, sans-serif, ''Trebuchet MS'';
+        font-size: 11px;\"/>?&nbsp;Your content will be scanned using Copyscape to
+        ensure no part h&nbsp;Do not submit content that has been copied in any way<br
+        style=\"color: rgb(42, 77, 123); font-family: Verdana, Arial, sans-serif,
+        ''Trebuchet MS''; font-size: 11px;\"/>?&nbsp;Your content will be scanned
+        using Copyscape to ensure no part has been copied<br style=\"color: rgb(42,
+        77, 123); font-family: Verdana, Arial, sans-serif, ''Trebuchet MS''; font-size:
+        11px;\"/>?&nbsp;Both our editors and the client will review Copyscape &nbsp;port.
+        If pl </p>","head_html":null,"campaign_name":null,"has_user_changes":true,"post_summary":"<p>Your
+        content will be scanned using Copyscape to ensure no part has been copied<br
+        style=\"color: rgb(42, 77, 123); font-family: Verdana, Arial, sans-serif,
+        ''Trebuchet MS''; font-size: 11px;\"/>?&nbsp;Both our editors and the client
+        will review Copyscape repo&nbsp;Do not submit content that has been copied
+        in any way<br style=\"color: rgb(42, 77, 123); font-family: Verdana, Arial,
+        sans-serif, ''Trebuchet MS''; font-size: 11px;\"/>?&nbsp;Your content will
+        be scanned using Copyscape to ensure no part h&nbsp;Do not submit content
+        that has been copied in any way<br style=\"color: rgb(42, 77, 123); font-family:
+        Verdana, Arial, sans-serif, ''Trebuchet MS''; font-size: 11px;\"/>?&nbsp;Your
+        content will be scanned using Copyscape to ensure no part has been copied<br
+        style=\"color: rgb(42, 77, 123); font-family: Verdana, Arial, sans-serif,
+        ''Trebuchet MS''; font-size: 11px;\"/>?&nbsp;Both our editors and the client
+        will review Copyscape &nbsp;port. If pl </p>"},"meta_keywords":"Suggestion
+        ","name":"Suggestion Records","page_redirected":false,"page_title":"Suggestion
+        Records","parent_blog":{"absolute_url":"http://demo-hubapi.hs-sites.com/blog","allow_comments":true,"amp_body_color":"#404040","amp_body_font":"''Helvetica
+        Neue'', Helvetica, Arial, sans-serif","amp_body_font_size":"18","amp_custom_css":"","amp_header_background_color":"#ffffff","amp_header_color":"#1e1e1e","amp_header_font":"''Helvetica
+        Neue'', Helvetica, Arial, sans-serif","amp_header_font_size":"36","amp_link_color":"#416bb3","amp_logo_alt":"","amp_logo_height":0,"amp_logo_src":"","amp_logo_width":0,"analytics_page_id":351076997,"attached_stylesheets":[],"captcha_after_days":7,"captcha_always":false,"category_id":3,"close_comments_older":0,"comment_date_format":"medium","comment_form_guid":"6ec02265-f341-4621-a71a-fa161ef94614","comment_max_thread_depth":3,"comment_moderation":false,"comment_notification_emails":[],"comment_should_create_contact":true,"comment_verification_text":"","created":1381896103000,"created_date_time":1381896103000,"default_group_style_id":"","default_notification_from_name":"Patrick
+        Fitzsimmons","default_notification_reply_to":"pfitzsimmons@hubspot.com","deleted_at":0,"description":"","domain":"","domain_when_published":"demo-hubapi.hs-sites.com","enable_google_amp_output":false,"enable_social_auto_publishing":false,"html_footer":"11111111111111","html_footer_is_shared":true,"html_head":"","html_head_is_shared":true,"html_keywords":[],"html_title":"API
+        Demonstration Blog","id":351076997,"instant_notification_email_id":"348108934","item_layout_id":4679039338,"item_template_is_shared":true,"item_template_path":"generated_layouts/4679039338.html","language":"en_US","listing_layout_id":4679039338,"listing_template_path":"generated_layouts/4679039338.html","live_domain":"demo-hubapi.hs-sites.com","month_filter_format":"MMMM
+        yyyy","monthly_notification_email_id":"348108919","name":"API Demonstration
+        Blog","portal_id":62515,"post_html_footer":"11111111111111","post_html_head":"","posts_per_listing_page":10,"posts_per_rss_feed":10,"public_title":"API
+        Demonstration Blog","publish_date_format":"medium","resolved_domain":"demo-hubapi.hs-sites.com","root_url":"http://demo-hubapi.hs-sites.com/blog","show_social_link_facebook":false,"show_social_link_google_plus":false,"show_social_link_linkedin":false,"show_social_link_twitter":false,"show_summary_in_emails":false,"show_summary_in_listing":false,"show_summary_in_rss":false,"site_id":0,"slug":"blog","social_account_twitter":"","subscription_contacts_property":"blog_api_demonstration_blog_subscription","subscription_form_guid":"6620143a-a4b1-4709-a537-c3e5b66c97c1","subscription_lists_by_type":{"daily":280,"instant":279,"monthly":278,"weekly":281},"updated":1489429205000,"updated_date_time":1489429205000,"url_base":"demo-hubapi.hs-sites.com/blog","url_segments":{},"use_featured_image_in_summary":true,"uses_default_template":false},"performable_guid":"","personas":[],"placement_guids":[],"portal_id":62515,"post_body":"Your
+        content will be scanned using Copyscape to ensure no part has been copied<br
+        style=\"color: rgb(42, 77, 123); font-family: Verdana, Arial, sans-serif,
+        ''Trebuchet MS''; font-size: 11px;\">?&nbsp;Both our editors and the client
+        will review Copyscape repo&nbsp;Do not submit content that has been copied
+        in any way<br style=\"color: rgb(42, 77, 123); font-family: Verdana, Arial,
+        sans-serif, ''Trebuchet MS''; font-size: 11px;\">?&nbsp;Your content will
+        be scanned using Copyscape to ensure no part h&nbsp;Do not submit content
+        that has been copied in any way<br style=\"color: rgb(42, 77, 123); font-family:
+        Verdana, Arial, sans-serif, ''Trebuchet MS''; font-size: 11px;\">?&nbsp;Your
+        content will be scanned using Copyscape to ensure no part has been copied<br
+        style=\"color: rgb(42, 77, 123); font-family: Verdana, Arial, sans-serif,
+        ''Trebuchet MS''; font-size: 11px;\">?&nbsp;Both our editors and the client
+        will review Copyscape &nbsp;port. If pl ","post_body_rss":"<p>Your content
+        will be scanned using Copyscape to ensure no part has been copied<br style=\"color:
+        rgb(42, 77, 123); font-family: Verdana, Arial, sans-serif, ''Trebuchet MS'';
+        font-size: 11px;\"/>?&nbsp;Both our editors and the client will review Copyscape
+        repo&nbsp;Do not submit content that has been copied in any way<br style=\"color:
+        rgb(42, 77, 123); font-family: Verdana, Arial, sans-serif, ''Trebuchet MS'';
+        font-size: 11px;\"/>?&nbsp;Your content will be scanned using Copyscape to
+        ensure no part h&nbsp;Do not submit content that has been copied in any way<br
+        style=\"color: rgb(42, 77, 123); font-family: Verdana, Arial, sans-serif,
+        ''Trebuchet MS''; font-size: 11px;\"/>?&nbsp;Your content will be scanned
+        using Copyscape to ensure no part has been copied<br style=\"color: rgb(42,
+        77, 123); font-family: Verdana, Arial, sans-serif, ''Trebuchet MS''; font-size:
+        11px;\"/>?&nbsp;Both our editors and the client will review Copyscape &nbsp;port.
+        If pl </p>","post_email_content":"Your content will be scanned using Copyscape
+        to ensure no part has been copied<br style=\"color: rgb(42, 77, 123); font-family:
+        Verdana, Arial, sans-serif, ''Trebuchet MS''; font-size: 11px;\">?&nbsp;Both
+        our editors and the client will review Copyscape repo&nbsp;Do not submit content
+        that has been copied in any way<br style=\"color: rgb(42, 77, 123); font-family:
+        Verdana, Arial, sans-serif, ''Trebuchet MS''; font-size: 11px;\">?&nbsp;Your
+        content will be scanned using Copyscape to ensure no part h&nbsp;Do not submit
+        content that has been copied in any way<br style=\"color: rgb(42, 77, 123);
+        font-family: Verdana, Arial, sans-serif, ''Trebuchet MS''; font-size: 11px;\">?&nbsp;Your
+        content will be scanned using Copyscape to ensure no part has been copied<br
+        style=\"color: rgb(42, 77, 123); font-family: Verdana, Arial, sans-serif,
+        ''Trebuchet MS''; font-size: 11px;\">?&nbsp;Both our editors and the client
+        will review Copyscape &nbsp;port. If pl ","post_featured_image_if_enabled":"","post_list_content":"Your
+        content will be scanned using Copyscape to ensure no part has been copied<br
+        style=\"color: rgb(42, 77, 123); font-family: Verdana, Arial, sans-serif,
+        ''Trebuchet MS''; font-size: 11px;\">?&nbsp;Both our editors and the client
+        will review Copyscape repo&nbsp;Do not submit content that has been copied
+        in any way<br style=\"color: rgb(42, 77, 123); font-family: Verdana, Arial,
+        sans-serif, ''Trebuchet MS''; font-size: 11px;\">?&nbsp;Your content will
+        be scanned using Copyscape to ensure no part h&nbsp;Do not submit content
+        that has been copied in any way<br style=\"color: rgb(42, 77, 123); font-family:
+        Verdana, Arial, sans-serif, ''Trebuchet MS''; font-size: 11px;\">?&nbsp;Your
+        content will be scanned using Copyscape to ensure no part has been copied<br
+        style=\"color: rgb(42, 77, 123); font-family: Verdana, Arial, sans-serif,
+        ''Trebuchet MS''; font-size: 11px;\">?&nbsp;Both our editors and the client
+        will review Copyscape &nbsp;port. If pl ","post_list_summary_featured_image":"","post_rss_content":"<p>Your
+        content will be scanned using Copyscape to ensure no part has been copied<br
+        style=\"color: rgb(42, 77, 123); font-family: Verdana, Arial, sans-serif,
+        ''Trebuchet MS''; font-size: 11px;\"/>?&nbsp;Both our editors and the client
+        will review Copyscape repo&nbsp;Do not submit content that has been copied
+        in any way<br style=\"color: rgb(42, 77, 123); font-family: Verdana, Arial,
+        sans-serif, ''Trebuchet MS''; font-size: 11px;\"/>?&nbsp;Your content will
+        be scanned using Copyscape to ensure no part h&nbsp;Do not submit content
+        that has been copied in any way<br style=\"color: rgb(42, 77, 123); font-family:
+        Verdana, Arial, sans-serif, ''Trebuchet MS''; font-size: 11px;\"/>?&nbsp;Your
+        content will be scanned using Copyscape to ensure no part has been copied<br
+        style=\"color: rgb(42, 77, 123); font-family: Verdana, Arial, sans-serif,
+        ''Trebuchet MS''; font-size: 11px;\"/>?&nbsp;Both our editors and the client
+        will review Copyscape &nbsp;port. If pl </p>","post_rss_summary_featured_image":"","post_summary":"<p>Your
+        content will be scanned using Copyscape to ensure no part has been copied<br
+        style=\"color: rgb(42, 77, 123); font-family: Verdana, Arial, sans-serif,
+        ''Trebuchet MS''; font-size: 11px;\"/>?&nbsp;Both our editors and the client
+        will review Copyscape repo&nbsp;Do not submit content that has been copied
+        in any way<br style=\"color: rgb(42, 77, 123); font-family: Verdana, Arial,
+        sans-serif, ''Trebuchet MS''; font-size: 11px;\"/>?&nbsp;Your content will
+        be scanned using Copyscape to ensure no part h&nbsp;Do not submit content
+        that has been copied in any way<br style=\"color: rgb(42, 77, 123); font-family:
+        Verdana, Arial, sans-serif, ''Trebuchet MS''; font-size: 11px;\"/>?&nbsp;Your
+        content will be scanned using Copyscape to ensure no part has been copied<br
+        style=\"color: rgb(42, 77, 123); font-family: Verdana, Arial, sans-serif,
+        ''Trebuchet MS''; font-size: 11px;\"/>?&nbsp;Both our editors and the client
+        will review Copyscape &nbsp;port. If pl </p>","post_summary_rss":"<p>Your
+        content will be scanned using Copyscape to ensure no part has been copied<br
+        style=\"color: rgb(42, 77, 123); font-family: Verdana, Arial, sans-serif,
+        ''Trebuchet MS''; font-size: 11px;\"/>?&nbsp;Both our editors and the client
+        will review Copyscape repo&nbsp;Do not submit content that has been copied
+        in any way<br style=\"color: rgb(42, 77, 123); font-family: Verdana, Arial,
+        sans-serif, ''Trebuchet MS''; font-size: 11px;\"/>?&nbsp;Your content will
+        be scanned using Copyscape to ensure no part h&nbsp;Do not submit content
+        that has been copied in any way<br style=\"color: rgb(42, 77, 123); font-family:
+        Verdana, Arial, sans-serif, ''Trebuchet MS''; font-size: 11px;\"/>?&nbsp;Your
+        content will be scanned using Copyscape to ensure no part has been copied<br
+        style=\"color: rgb(42, 77, 123); font-family: Verdana, Arial, sans-serif,
+        ''Trebuchet MS''; font-size: 11px;\"/>?&nbsp;Both our editors and the client
+        will review Copyscape &nbsp;port. If pl </p>","post_template":"generated_layouts/4679039338.html","preview_key":"_-kRw4Gz","processing_status":"","publish_date":1384934339000,"publish_date_local_time":1384934339000,"publish_date_localized":{"date":1384934339000,"format":"medium","language":"en_US"},"publish_immediately":false,"published_url":"","resolved_domain":"demo-hubapi.hs-sites.com","rss_body":"<p>Your
+        content will be scanned using Copyscape to ensure no part has been copied<br
+        style=\"color: rgb(42, 77, 123); font-family: Verdana, Arial, sans-serif,
+        ''Trebuchet MS''; font-size: 11px;\"/>?&nbsp;Both our editors and the client
+        will review Copyscape repo&nbsp;Do not submit content that has been copied
+        in any way<br style=\"color: rgb(42, 77, 123); font-family: Verdana, Arial,
+        sans-serif, ''Trebuchet MS''; font-size: 11px;\"/>?&nbsp;Your content will
+        be scanned using Copyscape to ensure no part h&nbsp;Do not submit content
+        that has been copied in any way<br style=\"color: rgb(42, 77, 123); font-family:
+        Verdana, Arial, sans-serif, ''Trebuchet MS''; font-size: 11px;\"/>?&nbsp;Your
+        content will be scanned using Copyscape to ensure no part has been copied<br
+        style=\"color: rgb(42, 77, 123); font-family: Verdana, Arial, sans-serif,
+        ''Trebuchet MS''; font-size: 11px;\"/>?&nbsp;Both our editors and the client
+        will review Copyscape &nbsp;port. If pl </p>","rss_summary":"<p>Your content
+        will be scanned using Copyscape to ensure no part has been copied<br style=\"color:
+        rgb(42, 77, 123); font-family: Verdana, Arial, sans-serif, ''Trebuchet MS'';
+        font-size: 11px;\"/>?&nbsp;Both our editors and the client will review Copyscape
+        repo&nbsp;Do not submit content that has been copied in any way<br style=\"color:
+        rgb(42, 77, 123); font-family: Verdana, Arial, sans-serif, ''Trebuchet MS'';
+        font-size: 11px;\"/>?&nbsp;Your content will be scanned using Copyscape to
+        ensure no part h&nbsp;Do not submit content that has been copied in any way<br
+        style=\"color: rgb(42, 77, 123); font-family: Verdana, Arial, sans-serif,
+        ''Trebuchet MS''; font-size: 11px;\"/>?&nbsp;Your content will be scanned
+        using Copyscape to ensure no part has been copied<br style=\"color: rgb(42,
+        77, 123); font-family: Verdana, Arial, sans-serif, ''Trebuchet MS''; font-size:
+        11px;\"/>?&nbsp;Both our editors and the client will review Copyscape &nbsp;port.
+        If pl </p>","rss_summary_featured_image":"","site_id":0,"slug":"blog/suggestion-records","state":"DRAFT","subcategory":"normal_blog_post","synced_with_blog_root":true,"tag_ids":[],"tag_list":[],"tag_names":[],"template_path":"","template_path_for_render":"generated_layouts/4679039338.html","title":"Suggestion
+        Records","topic_ids":[],"topic_list":[],"topic_names":[],"topics":[],"translated_content":{},"tweet_immediately":false,"unpublished_at":0,"updated":1384934339000,"upsize_featured_image":false,"url":"http://demo-hubapi.hs-sites.com/blog/suggestion-records","use_featured_image":true,"views":0,"widget_containers":{},"widgetcontainers":{},"widgets":{}},{"ab":false,"ab_variation":false,"absolute_url":"http://demo-hubapi.hs-sites.com/blog/demonstrating-the-blog-post-api","allowed_slug_conflict":false,"analytics_page_id":"352531735","analytics_page_type":"blog-post","archived":false,"are_comments_allowed":true,"attached_stylesheets":[],"author":"pfitzsimmons@hubspot.com","author_at":1381896283000,"author_email":"pfitzsimmons@hubspot.com","author_name":"Patrick
+        Fitzsimmons","author_user_id":100307,"author_username":"pfitzsimmons@hubspot.com","blog_author_id":284839243,"blog_publish_instant_email_retry_count":0,"blueprint_type_id":0,"campaign":"d4c2ff5a-257d-4c4c-84a1-15e7197258fc","campaign_name":"market","campaign_utm":"market","category":3,"category_id":3,"comment_count":0,"composition_id":0,"content_group":351076997,"content_group_id":351076997,"created":1381896164000,"created_time":1381896164000,"css":{},"css_text":"","ctas":null,"current_state":"PUBLISHED","currently_published":true,"deleted_at":0,"domain":"","enable_google_amp_output_override":false,"featured_image":"","featured_image_alt_text":"","featured_image_height":0,"featured_image_length":0,"featured_image_width":0,"flex_areas":{},"footer_html":"","freeze_date":1381896282000,"has_user_changes":true,"head_html":"","html_title":"Demonstrating
+        the Blog Post API","id":352531735,"is_captcha_required":true,"is_draft":true,"is_instant_email_enabled":true,"is_published":true,"is_social_publishing_enabled":false,"keywords":[],"label":"Demonstrating
+        the Blog Post API","list_template":"generated_layouts/4679039338.html","live_domain":"demo-hubapi.hs-sites.com","meta":{"meta_keywords":null,"blog_publish_instant_email_task_uid":null,"topic_ids":[349001328],"author_user_id":100307,"style_override_id":null,"preview_image_src":null,"header":null,"performable_campaign_id":null,"featured_image":"","campaign_name":"market","post_summary":"<p>This
+        blog post is meant to demonstrate the capabilities of the COS API.</p>\n","has_user_changes":true,"html_title":"Demonstrating
+        the Blog Post API","blog_post_schedule_task_uid":null,"author_email":"pfitzsimmons@hubspot.com","tweet":null,"blog_publish_to_social_media_task":null,"blog_publish_instant_email_campaign_id":null,"blog_publish_instant_email_retry_count":0,"tweet_at":null,"campaign_utm":"market","footer_html":"","meta_description":"A
+        test blog post demonstrating the API.","performable_url":null,"author_username":"pfitzsimmons@hubspot.com","cloned_from":null,"placement_guids":[],"performable_edit_url":null,"subscription_name":null,"rss_summary":"<p>This
+        blog post is meant to demonstrate the capabilities of the COS API.</p>\n","head_html":"","password":null,"tweet_immediately":null,"post_body":"<p>This
+        blog post is meant to demonstrate the capabilities of the COS API.</p>\n<p><span>Part
+        content system, part personalization engine. HubSpot''s COS is the first integrated
+        website, blog and landing page system to be optimized for mobile right out-of-the-box.
+        Fully integrated with every marketing channel, it adapts to each viewer''s
+        unique context.</span></p>\n<p><span><span>HubSpot is a complete inbound marketing
+        platform. So not only are all of the tools you use in one place, your customers
+        get a seamless experience from email to social to web. Brilliant.</span></span></p>","publish_immediately":true,"rss_body":"<p>This
+        blog post is meant to demonstrate the capabilities of the COS API.</p>\n<p><span>Part
+        content system, part personalization engine. HubSpot''s COS is the first integrated
+        website, blog and landing page system to be optimized for mobile right out-of-the-box.
+        Fully integrated with every marketing channel, it adapts to each viewer''s
+        unique context.</span></p>\n<p><span><span>HubSpot is a complete inbound marketing
+        platform. So not only are all of the tools you use in one place, your customers
+        get a seamless experience from email to social to web. Brilliant.</span></span></p>","performable_campaign_rules_data":null,"performable_variation_letter":"","legacy_post_guid":null},"meta_description":"A
+        test blog post demonstrating the API.","name":"Demonstrating the Blog Post
+        API","page_redirected":false,"page_title":"Demonstrating the Blog Post API","parent_blog":{"absolute_url":"http://demo-hubapi.hs-sites.com/blog","allow_comments":true,"amp_body_color":"#404040","amp_body_font":"''Helvetica
+        Neue'', Helvetica, Arial, sans-serif","amp_body_font_size":"18","amp_custom_css":"","amp_header_background_color":"#ffffff","amp_header_color":"#1e1e1e","amp_header_font":"''Helvetica
+        Neue'', Helvetica, Arial, sans-serif","amp_header_font_size":"36","amp_link_color":"#416bb3","amp_logo_alt":"","amp_logo_height":0,"amp_logo_src":"","amp_logo_width":0,"analytics_page_id":351076997,"attached_stylesheets":[],"captcha_after_days":7,"captcha_always":false,"category_id":3,"close_comments_older":0,"comment_date_format":"medium","comment_form_guid":"6ec02265-f341-4621-a71a-fa161ef94614","comment_max_thread_depth":3,"comment_moderation":false,"comment_notification_emails":[],"comment_should_create_contact":true,"comment_verification_text":"","created":1381896103000,"created_date_time":1381896103000,"default_group_style_id":"","default_notification_from_name":"Patrick
+        Fitzsimmons","default_notification_reply_to":"pfitzsimmons@hubspot.com","deleted_at":0,"description":"","domain":"","domain_when_published":"demo-hubapi.hs-sites.com","enable_google_amp_output":false,"enable_social_auto_publishing":false,"html_footer":"11111111111111","html_footer_is_shared":true,"html_head":"","html_head_is_shared":true,"html_keywords":[],"html_title":"API
+        Demonstration Blog","id":351076997,"instant_notification_email_id":"348108934","item_layout_id":4679039338,"item_template_is_shared":true,"item_template_path":"generated_layouts/4679039338.html","language":"en_US","listing_layout_id":4679039338,"listing_template_path":"generated_layouts/4679039338.html","live_domain":"demo-hubapi.hs-sites.com","month_filter_format":"MMMM
+        yyyy","monthly_notification_email_id":"348108919","name":"API Demonstration
+        Blog","portal_id":62515,"post_html_footer":"11111111111111","post_html_head":"","posts_per_listing_page":10,"posts_per_rss_feed":10,"public_title":"API
+        Demonstration Blog","publish_date_format":"medium","resolved_domain":"demo-hubapi.hs-sites.com","root_url":"http://demo-hubapi.hs-sites.com/blog","show_social_link_facebook":false,"show_social_link_google_plus":false,"show_social_link_linkedin":false,"show_social_link_twitter":false,"show_summary_in_emails":false,"show_summary_in_listing":false,"show_summary_in_rss":false,"site_id":0,"slug":"blog","social_account_twitter":"","subscription_contacts_property":"blog_api_demonstration_blog_subscription","subscription_form_guid":"6620143a-a4b1-4709-a537-c3e5b66c97c1","subscription_lists_by_type":{"daily":280,"instant":279,"monthly":278,"weekly":281},"updated":1489429205000,"updated_date_time":1489429205000,"url_base":"demo-hubapi.hs-sites.com/blog","url_segments":{},"use_featured_image_in_summary":true,"uses_default_template":false},"performable_guid":"","performable_variation_letter":"","personas":[],"placement_guids":[],"portal_id":62515,"post_body":"<p>This
+        blog post is meant to demonstrate the capabilities of the COS API.</p>\n<p><span>Part
+        content system, part personalization engine. HubSpot''s COS is the first integrated
+        website, blog and landing page system to be optimized for mobile right out-of-the-box.
+        Fully integrated with every marketing channel, it adapts to each viewer''s
+        unique context.</span></p>\n<p><span><span>HubSpot is a complete inbound marketing
+        platform. So not only are all of the tools you use in one place, your customers
+        get a seamless experience from email to social to web. Brilliant.</span></span></p>","post_body_rss":"<p>This
+        blog post is meant to demonstrate the capabilities of the COS API.</p>\n<p><span>Part
+        content system, part personalization engine. HubSpot''s COS is the first integrated
+        website, blog and landing page system to be optimized for mobile right out-of-the-box.
+        Fully integrated with every marketing channel, it adapts to each viewer''s
+        unique context.</span></p>\n<p><span><span>HubSpot is a complete inbound marketing
+        platform. So not only are all of the tools you use in one place, your customers
+        get a seamless experience from email to social to web. Brilliant.</span></span></p>","post_email_content":"<p>This
+        blog post is meant to demonstrate the capabilities of the COS API.</p>\n<p><span>Part
+        content system, part personalization engine. HubSpot''s COS is the first integrated
+        website, blog and landing page system to be optimized for mobile right out-of-the-box.
+        Fully integrated with every marketing channel, it adapts to each viewer''s
+        unique context.</span></p>\n<p><span><span>HubSpot is a complete inbound marketing
+        platform. So not only are all of the tools you use in one place, your customers
+        get a seamless experience from email to social to web. Brilliant.</span></span></p>","post_featured_image_if_enabled":"","post_list_content":"<p>This
+        blog post is meant to demonstrate the capabilities of the COS API.</p>\n<p><span>Part
+        content system, part personalization engine. HubSpot''s COS is the first integrated
+        website, blog and landing page system to be optimized for mobile right out-of-the-box.
+        Fully integrated with every marketing channel, it adapts to each viewer''s
+        unique context.</span></p>\n<p><span><span>HubSpot is a complete inbound marketing
+        platform. So not only are all of the tools you use in one place, your customers
+        get a seamless experience from email to social to web. Brilliant.</span></span></p>","post_list_summary_featured_image":"","post_rss_content":"<p>This
+        blog post is meant to demonstrate the capabilities of the COS API.</p>\n<p><span>Part
+        content system, part personalization engine. HubSpot''s COS is the first integrated
+        website, blog and landing page system to be optimized for mobile right out-of-the-box.
+        Fully integrated with every marketing channel, it adapts to each viewer''s
+        unique context.</span></p>\n<p><span><span>HubSpot is a complete inbound marketing
+        platform. So not only are all of the tools you use in one place, your customers
+        get a seamless experience from email to social to web. Brilliant.</span></span></p>","post_rss_summary_featured_image":"","post_summary":"<p>This
+        blog post is meant to demonstrate the capabilities of the COS API.</p>\n","post_summary_rss":"<p>This
+        blog post is meant to demonstrate the capabilities of the COS API.</p>\n","post_template":"generated_layouts/4679039338.html","preview_key":"Bw3HHMW_","processing_status":"published","publish_date":1381896282000,"publish_date_local_time":1381896282000,"publish_date_localized":{"date":1381896282000,"format":"medium","language":"en_US"},"publish_immediately":true,"published_url":"http://demo-hubapi.hs-sites.com/blog/demonstrating-the-blog-post-api","resolved_domain":"demo-hubapi.hs-sites.com","rss_body":"<p>This
+        blog post is meant to demonstrate the capabilities of the COS API.</p>\n<p><span>Part
+        content system, part personalization engine. HubSpot''s COS is the first integrated
+        website, blog and landing page system to be optimized for mobile right out-of-the-box.
+        Fully integrated with every marketing channel, it adapts to each viewer''s
+        unique context.</span></p>\n<p><span><span>HubSpot is a complete inbound marketing
+        platform. So not only are all of the tools you use in one place, your customers
+        get a seamless experience from email to social to web. Brilliant.</span></span></p>","rss_summary":"<p>This
+        blog post is meant to demonstrate the capabilities of the COS API.</p>\n","rss_summary_featured_image":"","site_id":0,"slug":"blog/demonstrating-the-blog-post-api","state":"PUBLISHED","subcategory":"normal_blog_post","synced_with_blog_root":true,"tag_ids":[349001328],"tag_list":[],"tag_names":[],"template_path":"","template_path_for_render":"generated_layouts/4679039338.html","title":"Demonstrating
+        the Blog Post API","topic_ids":[349001328],"topic_list":[],"topic_names":[],"topics":[349001328],"translated_content":{},"tweet_immediately":false,"unpublished_at":0,"updated":1381896283000,"upsize_featured_image":false,"url":"http://demo-hubapi.hs-sites.com/blog/demonstrating-the-blog-post-api","use_featured_image":true,"views":12,"widget_containers":{},"widgetcontainers":{},"widgets":{"blog_comments":{"body":{},"css":{},"id":"blog_comments","meta":{},"name":"blog_comments","type":"blog_comments"}}}],"offset":0,"total":7,"total_count":7}'
+    http_version: 
+  recorded_at: Wed, 10 Oct 2012 02:00:00 GMT
+- request:
+    method: get
+    uri: https://api.hubapi.com/content/api/v2/blog-posts?content_group_id=351076997&created__range=1412906400000&hapikey=demo&order_by=-created&state=PUBLISHED
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Content-Type:
+      - application/json; charset=UTF-8
+      Content-Length:
+      - '12451'
+      Date:
+      - Wed, 25 Oct 2017 13:39:57 GMT
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"limit":20,"objects":[{"ab":false,"ab_variation":false,"absolute_url":"http://demo-hubapi.hs-sites.com/blog/demonstrating-the-blog-post-api","allowed_slug_conflict":false,"analytics_page_id":"352531735","analytics_page_type":"blog-post","archived":false,"are_comments_allowed":true,"attached_stylesheets":[],"author":"pfitzsimmons@hubspot.com","author_at":1381896283000,"author_email":"pfitzsimmons@hubspot.com","author_name":"Patrick
+        Fitzsimmons","author_user_id":100307,"author_username":"pfitzsimmons@hubspot.com","blog_author_id":284839243,"blog_publish_instant_email_retry_count":0,"blueprint_type_id":0,"campaign":"d4c2ff5a-257d-4c4c-84a1-15e7197258fc","campaign_name":"market","campaign_utm":"market","category":3,"category_id":3,"comment_count":0,"composition_id":0,"content_group":351076997,"content_group_id":351076997,"created":1381896164000,"created_time":1381896164000,"css":{},"css_text":"","ctas":null,"current_state":"PUBLISHED","currently_published":true,"deleted_at":0,"domain":"","enable_google_amp_output_override":false,"featured_image":"","featured_image_alt_text":"","featured_image_height":0,"featured_image_length":0,"featured_image_width":0,"flex_areas":{},"footer_html":"","freeze_date":1381896282000,"has_user_changes":true,"head_html":"","html_title":"Demonstrating
+        the Blog Post API","id":352531735,"is_captcha_required":true,"is_draft":true,"is_instant_email_enabled":true,"is_published":true,"is_social_publishing_enabled":false,"keywords":[],"label":"Demonstrating
+        the Blog Post API","list_template":"generated_layouts/4679039338.html","live_domain":"demo-hubapi.hs-sites.com","meta":{"meta_keywords":null,"blog_publish_instant_email_task_uid":null,"topic_ids":[349001328],"author_user_id":100307,"style_override_id":null,"preview_image_src":null,"header":null,"performable_campaign_id":null,"featured_image":"","campaign_name":"market","post_summary":"<p>This
+        blog post is meant to demonstrate the capabilities of the COS API.</p>\n","has_user_changes":true,"html_title":"Demonstrating
+        the Blog Post API","blog_post_schedule_task_uid":null,"author_email":"pfitzsimmons@hubspot.com","tweet":null,"blog_publish_to_social_media_task":null,"blog_publish_instant_email_campaign_id":null,"blog_publish_instant_email_retry_count":0,"tweet_at":null,"campaign_utm":"market","footer_html":"","meta_description":"A
+        test blog post demonstrating the API.","performable_url":null,"author_username":"pfitzsimmons@hubspot.com","cloned_from":null,"placement_guids":[],"performable_edit_url":null,"subscription_name":null,"rss_summary":"<p>This
+        blog post is meant to demonstrate the capabilities of the COS API.</p>\n","head_html":"","password":null,"tweet_immediately":null,"post_body":"<p>This
+        blog post is meant to demonstrate the capabilities of the COS API.</p>\n<p><span>Part
+        content system, part personalization engine. HubSpot''s COS is the first integrated
+        website, blog and landing page system to be optimized for mobile right out-of-the-box.
+        Fully integrated with every marketing channel, it adapts to each viewer''s
+        unique context.</span></p>\n<p><span><span>HubSpot is a complete inbound marketing
+        platform. So not only are all of the tools you use in one place, your customers
+        get a seamless experience from email to social to web. Brilliant.</span></span></p>","publish_immediately":true,"rss_body":"<p>This
+        blog post is meant to demonstrate the capabilities of the COS API.</p>\n<p><span>Part
+        content system, part personalization engine. HubSpot''s COS is the first integrated
+        website, blog and landing page system to be optimized for mobile right out-of-the-box.
+        Fully integrated with every marketing channel, it adapts to each viewer''s
+        unique context.</span></p>\n<p><span><span>HubSpot is a complete inbound marketing
+        platform. So not only are all of the tools you use in one place, your customers
+        get a seamless experience from email to social to web. Brilliant.</span></span></p>","performable_campaign_rules_data":null,"performable_variation_letter":"","legacy_post_guid":null},"meta_description":"A
+        test blog post demonstrating the API.","name":"Demonstrating the Blog Post
+        API","page_redirected":false,"page_title":"Demonstrating the Blog Post API","parent_blog":{"absolute_url":"http://demo-hubapi.hs-sites.com/blog","allow_comments":true,"amp_body_color":"#404040","amp_body_font":"''Helvetica
+        Neue'', Helvetica, Arial, sans-serif","amp_body_font_size":"18","amp_custom_css":"","amp_header_background_color":"#ffffff","amp_header_color":"#1e1e1e","amp_header_font":"''Helvetica
+        Neue'', Helvetica, Arial, sans-serif","amp_header_font_size":"36","amp_link_color":"#416bb3","amp_logo_alt":"","amp_logo_height":0,"amp_logo_src":"","amp_logo_width":0,"analytics_page_id":351076997,"attached_stylesheets":[],"captcha_after_days":7,"captcha_always":false,"category_id":3,"close_comments_older":0,"comment_date_format":"medium","comment_form_guid":"6ec02265-f341-4621-a71a-fa161ef94614","comment_max_thread_depth":3,"comment_moderation":false,"comment_notification_emails":[],"comment_should_create_contact":true,"comment_verification_text":"","created":1381896103000,"created_date_time":1381896103000,"default_group_style_id":"","default_notification_from_name":"Patrick
+        Fitzsimmons","default_notification_reply_to":"pfitzsimmons@hubspot.com","deleted_at":0,"description":"","domain":"","domain_when_published":"demo-hubapi.hs-sites.com","enable_google_amp_output":false,"enable_social_auto_publishing":false,"html_footer":"11111111111111","html_footer_is_shared":true,"html_head":"","html_head_is_shared":true,"html_keywords":[],"html_title":"API
+        Demonstration Blog","id":351076997,"instant_notification_email_id":"348108934","item_layout_id":4679039338,"item_template_is_shared":true,"item_template_path":"generated_layouts/4679039338.html","language":"en_US","listing_layout_id":4679039338,"listing_template_path":"generated_layouts/4679039338.html","live_domain":"demo-hubapi.hs-sites.com","month_filter_format":"MMMM
+        yyyy","monthly_notification_email_id":"348108919","name":"API Demonstration
+        Blog","portal_id":62515,"post_html_footer":"11111111111111","post_html_head":"","posts_per_listing_page":10,"posts_per_rss_feed":10,"public_title":"API
+        Demonstration Blog","publish_date_format":"medium","resolved_domain":"demo-hubapi.hs-sites.com","root_url":"http://demo-hubapi.hs-sites.com/blog","show_social_link_facebook":false,"show_social_link_google_plus":false,"show_social_link_linkedin":false,"show_social_link_twitter":false,"show_summary_in_emails":false,"show_summary_in_listing":false,"show_summary_in_rss":false,"site_id":0,"slug":"blog","social_account_twitter":"","subscription_contacts_property":"blog_api_demonstration_blog_subscription","subscription_form_guid":"6620143a-a4b1-4709-a537-c3e5b66c97c1","subscription_lists_by_type":{"daily":280,"instant":279,"monthly":278,"weekly":281},"updated":1489429205000,"updated_date_time":1489429205000,"url_base":"demo-hubapi.hs-sites.com/blog","url_segments":{},"use_featured_image_in_summary":true,"uses_default_template":false},"performable_guid":"","performable_variation_letter":"","personas":[],"placement_guids":[],"portal_id":62515,"post_body":"<p>This
+        blog post is meant to demonstrate the capabilities of the COS API.</p>\n<p><span>Part
+        content system, part personalization engine. HubSpot''s COS is the first integrated
+        website, blog and landing page system to be optimized for mobile right out-of-the-box.
+        Fully integrated with every marketing channel, it adapts to each viewer''s
+        unique context.</span></p>\n<p><span><span>HubSpot is a complete inbound marketing
+        platform. So not only are all of the tools you use in one place, your customers
+        get a seamless experience from email to social to web. Brilliant.</span></span></p>","post_body_rss":"<p>This
+        blog post is meant to demonstrate the capabilities of the COS API.</p>\n<p><span>Part
+        content system, part personalization engine. HubSpot''s COS is the first integrated
+        website, blog and landing page system to be optimized for mobile right out-of-the-box.
+        Fully integrated with every marketing channel, it adapts to each viewer''s
+        unique context.</span></p>\n<p><span><span>HubSpot is a complete inbound marketing
+        platform. So not only are all of the tools you use in one place, your customers
+        get a seamless experience from email to social to web. Brilliant.</span></span></p>","post_email_content":"<p>This
+        blog post is meant to demonstrate the capabilities of the COS API.</p>\n<p><span>Part
+        content system, part personalization engine. HubSpot''s COS is the first integrated
+        website, blog and landing page system to be optimized for mobile right out-of-the-box.
+        Fully integrated with every marketing channel, it adapts to each viewer''s
+        unique context.</span></p>\n<p><span><span>HubSpot is a complete inbound marketing
+        platform. So not only are all of the tools you use in one place, your customers
+        get a seamless experience from email to social to web. Brilliant.</span></span></p>","post_featured_image_if_enabled":"","post_list_content":"<p>This
+        blog post is meant to demonstrate the capabilities of the COS API.</p>\n<p><span>Part
+        content system, part personalization engine. HubSpot''s COS is the first integrated
+        website, blog and landing page system to be optimized for mobile right out-of-the-box.
+        Fully integrated with every marketing channel, it adapts to each viewer''s
+        unique context.</span></p>\n<p><span><span>HubSpot is a complete inbound marketing
+        platform. So not only are all of the tools you use in one place, your customers
+        get a seamless experience from email to social to web. Brilliant.</span></span></p>","post_list_summary_featured_image":"","post_rss_content":"<p>This
+        blog post is meant to demonstrate the capabilities of the COS API.</p>\n<p><span>Part
+        content system, part personalization engine. HubSpot''s COS is the first integrated
+        website, blog and landing page system to be optimized for mobile right out-of-the-box.
+        Fully integrated with every marketing channel, it adapts to each viewer''s
+        unique context.</span></p>\n<p><span><span>HubSpot is a complete inbound marketing
+        platform. So not only are all of the tools you use in one place, your customers
+        get a seamless experience from email to social to web. Brilliant.</span></span></p>","post_rss_summary_featured_image":"","post_summary":"<p>This
+        blog post is meant to demonstrate the capabilities of the COS API.</p>\n","post_summary_rss":"<p>This
+        blog post is meant to demonstrate the capabilities of the COS API.</p>\n","post_template":"generated_layouts/4679039338.html","preview_key":"Bw3HHMW_","processing_status":"published","publish_date":1381896282000,"publish_date_local_time":1381896282000,"publish_date_localized":{"date":1381896282000,"format":"medium","language":"en_US"},"publish_immediately":true,"published_url":"http://demo-hubapi.hs-sites.com/blog/demonstrating-the-blog-post-api","resolved_domain":"demo-hubapi.hs-sites.com","rss_body":"<p>This
+        blog post is meant to demonstrate the capabilities of the COS API.</p>\n<p><span>Part
+        content system, part personalization engine. HubSpot''s COS is the first integrated
+        website, blog and landing page system to be optimized for mobile right out-of-the-box.
+        Fully integrated with every marketing channel, it adapts to each viewer''s
+        unique context.</span></p>\n<p><span><span>HubSpot is a complete inbound marketing
+        platform. So not only are all of the tools you use in one place, your customers
+        get a seamless experience from email to social to web. Brilliant.</span></span></p>","rss_summary":"<p>This
+        blog post is meant to demonstrate the capabilities of the COS API.</p>\n","rss_summary_featured_image":"","site_id":0,"slug":"blog/demonstrating-the-blog-post-api","state":"PUBLISHED","subcategory":"normal_blog_post","synced_with_blog_root":true,"tag_ids":[349001328],"tag_list":[],"tag_names":[],"template_path":"","template_path_for_render":"generated_layouts/4679039338.html","title":"Demonstrating
+        the Blog Post API","topic_ids":[349001328],"topic_list":[],"topic_names":[],"topics":[349001328],"translated_content":{},"tweet_immediately":false,"unpublished_at":0,"updated":1381896283000,"upsize_featured_image":false,"url":"http://demo-hubapi.hs-sites.com/blog/demonstrating-the-blog-post-api","use_featured_image":true,"views":12,"widget_containers":{},"widgetcontainers":{},"widgets":{"blog_comments":{"body":{},"css":{},"id":"blog_comments","meta":{},"name":"blog_comments","type":"blog_comments"}}}],"offset":0,"total":1,"total_count":1}'
+    http_version: 
+  recorded_at: Wed, 10 Oct 2012 02:00:00 GMT
 recorded_with: VCR 2.4.0
