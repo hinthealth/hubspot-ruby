@@ -7,35 +7,34 @@ module Hubspot
         url = generate_url(path, opts)
         response = get(url, headers: authorization_header, format: :json)
         log_request_and_response url, response
-        raise(Hubspot::RequestError.new(response)) unless response.success?
-        response.parsed_response
+
+        handle_response(response, true)
       end
 
       def post_json(path, opts)
-        no_parse = opts[:params].delete(:no_parse) { false }
+        parse_response = !opts[:params].delete(:no_parse) { false }
 
         url = generate_url(path, opts[:params])
         response = post(url, body: opts[:body].to_json, headers: { 'Content-Type' => 'application/json' }.merge(authorization_header), format: :json)
         log_request_and_response url, response, opts[:body]
-        raise(Hubspot::RequestError.new(response)) unless response.success?
 
-        no_parse ? response : response.parsed_response
+        handle_response(response, parse_response)
       end
 
       def put_json(path, opts)
         url = generate_url(path, opts[:params])
         response = put(url, body: opts[:body].to_json, headers: { 'Content-Type' => 'application/json' }.merge(authorization_header), format: :json)
         log_request_and_response url, response, opts[:body]
-        raise(Hubspot::RequestError.new(response)) unless response.success?
-        response.parsed_response
+
+        handle_response(response, true)
       end
 
       def delete_json(path, opts)
         url = generate_url(path, opts)
         response = delete(url, headers: authorization_header, format: :json)
         log_request_and_response url, response, opts[:body]
-        raise(Hubspot::RequestError.new(response)) unless response.success?
-        response
+
+        handle_response(response, false)
       end
 
       protected
@@ -104,6 +103,22 @@ module Hubspot
                        end
 
         { 'Authorization' => "Bearer #{access_token}" }
+      end
+
+      def handle_response(response, parse_response)
+        raise error_from_response(response) unless response.success?
+
+        parse_response ? response.parsed_response : response
+      end
+
+      def error_from_response(response)
+        if response['errorType'] == 'RATE_LIMIT'
+          Hubspot::RateLimitedError.new(response)
+        else
+          Hubspot::RequestError.new(response)
+        end
+      rescue => _
+        raise Hubspot::RequestError.new(response)
       end
     end
   end
